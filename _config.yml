@@ -11,18 +11,18 @@ desc: Time is running out.
 
 custom:
     category:
-        reflections: Reflections
+        think: Think
         redaing: Reading
         exception: MyException
         tools: Tools
         python: Python
         about: About
     categories:
-      - name:  reflections
-        title: Reflections
+      - name:  think
+        title: Think
 
-      - name:  redaing
-        title: Redaing
+      - name:  reading
+        title: Reading
 
       - name:  exception
         title: MyException
