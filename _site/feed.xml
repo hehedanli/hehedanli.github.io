@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>StillNoon</title>
+	<link href="http://stillnoon.com/atom.xml" rel="self" />
+	<link href="http://stillnoon.com/" />
+	<updated>2016-09-04T23:09:24+08:00</updated>
+	<id>http://stillnoon.com/</id>
+	<author>
+		<name>hehedanli</name>
+		<email>hehedanli@foxmail.com</email>
+	</author>
+	
+	<entry>
+		<title>Notes for Model Thinking week 1</title>
+		<link href="http://stillnoon.com/posts/modle-thinking-week-1.html" />
+		<updated>2016-09-04T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/modle-thinking-week-1.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>推荐邮件中出现了<a href="https://www.coursera.org/learn/model-thinking">Model Thinking</a>这门课，好奇之下注册，第一周笔记整理````虽然迟了一周。</p>
+</blockquote>
+
+<p>狂飙语速的Scott Page介绍上写着“ Professor of Complex Systems, Political Science, and Economics”，似乎不少讲课程理解为数理上的“模型”的同学有些失望。教授用经济学中的一些小例子授课，配套了视频件插入的练习，每周的测验也很简单，和其他课程比起，只要把视频看完，过起来很轻松。<br />
+week 1 的视频时常约2小时，加上语速快，看了两天。</p>
+
+<h2 id="why-model">Why Model</h2>
+<p>一个模型解决多种问题vs 多种模型解决一个问题。</p>
+
+<h3 id="how-models-help-us">how models help us</h3>
+<p>Essentially ,all models are wrong , but some are useful<br />
+formal model is best</p>
+
+<ul>
+  <li>
+    <p>A clearner Thinker<br />
+name the parts.<br />
+identify relationship.<br />
+work through logic,outcome.</p>
+  </li>
+  <li>
+    <p>Inducting example</p>
+  </li>
+  <li>
+    <p>4 outcome
+equilibrium<br />
+cycle<br />
+random<br />
+complex<br />
+models can predict witch will happen.</p>
+  </li>
+  <li>
+    <p>Identify logical boundaris</p>
+  </li>
+  <li>
+    <p>Communicate</p>
+  </li>
+</ul>
+
+<h3 id="how-to-use-and-understand-data">how to use and understand data</h3>
+<ul>
+  <li>Understand Patterns</li>
+  <li>Produce bounds</li>
+  <li>Predict points</li>
+  <li>Retrodict</li>
+  <li>Predict other</li>
+  <li>
+    <p>Inform data collection<br />
+teacher quality<br />
+parental status<br />
+total spending<br />
+class size<br />
+technology<br />
+health<br />
+peer effct</p>
+  </li>
+  <li>Estimate Hidden Praraeters<br />
+eg: SIR</li>
+  <li>Calibarate</li>
+</ul>
+
+<h2 id="use-model-to-decidestrategizeand-design">Use model to decide,strategize,and design</h2>
+<ul>
+  <li>Decision aids</li>
+  <li>Comparatize statics</li>
+  <li>Canterfactuals</li>
+  <li>Identify and rank leves</li>
+  <li>Experimental design</li>
+  <li>Institutional design</li>
+  <li>Help choose among policies institutions</li>
+</ul>
+
+<h2 id="segregation-and-peer-effects">Segregation and Peer Effects</h2>
+
+<p>reason 1 : sorting effect<br />
+reason 2 : peer effect</p>
+
+<p>classifaction:<br />
+* Equation based model<br />
+* Agent based model<br />
+  individuals<br />
+  behaviors<br />
+  outcomes</p>
+
+<h3 id="schelling">1.Schelling</h3>
+<p>measuring segregation</p>
+
+<h3 id="granoveretter">2.Granoveretter</h3>
+<p>N individuals<br />
+  each has a thresholds(阈值)<br />
+  more likely if lowrer Thresholds,more variation in Thresholds.</p>
+
+<h3 id="standing-oration">3.Standing Oration</h3>
+<p>Threshold to Stand:T<br />
+  Quality:Q  (0,100)<br />
+  Signal : S = Q + E
+  Initial Rule : if S &gt; T<br />
+  Subsequent Rule : stand ,if more x% stand (x :  % join)</p>
+
+<ul>
+  <li>make more poepel standing:<br />
+  (1)Higher Quality.<br />
+  (2)Lower Threshold.<br />
+  (3)Larger Peer Effects.<br />
+  (4)More Variation.(*)<br />
+  (5)Use Celebrities 前排放托<br />
+  (6)Big Groups</li>
+  <li>/&gt; 40%</li>
+  <li>
+    <p>apply：<br />
+a. collective action<br />
+b. academic perfomance<br />
+c. urban renewal<br />
+d. fitness/health<br />
+e. online course</p>
+  </li>
+  <li>how to get a larger E: <br />
+E:error;diversity<br />
+ Q &lt; \T,more variaatuon in E,more stand,S &gt; T.
+audience and performace.</li>
+</ul>
+
+<h3 id="identification">4.Identification</h3>
+<p>sorting vs peer effect</p>
+
+]]></content>
+	</entry>
+	
+	<entry>
+		<title>七月廿三</title>
+		<link href="http://stillnoon.com/posts/I-See.html" />
+		<updated>2016-08-25T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/I-See.html</id>
+		<content type="html"><![CDATA[<p>秋老虎的用电造成全城高峰间歇性停电，和家里的网络一样时有时无雨神来成都后接连阵雨，不少人开始了消暑大逃亡。<br />
+和小方在路口告别。<br />
+暴雨突至，眼镜和眼睛被暴雨打得发疼，模糊了路灯。闭着眼睛穿过小巷子，感觉眼睛也有点热。</p>
+
+<p>可能明天太阳会更烈。<br />
+很多事讲究过犹不及，就像随意发挥的恋爱故事里，加入元素过多，我发现了那根让人如释重负的稻草。<br />
+或许，以上情景，全是我的脑补。</p>
+
+<p>最近看了几本书，上了几堂课，可能一无所获。</p>
+
+]]></content>
+	</entry>
+	
+	<entry>
+		<title>少吃零食多看报，早睡多动勤用脑</title>
+		<link href="http://stillnoon.com/posts/Learn-How-to-Learn.html" />
+		<updated>2016-08-16T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/Learn-How-to-Learn.html</id>
+		<content type="html"><![CDATA[<p>完成了Coursera上的Learn How to Learn:Powerful mental tools to help you master tough subjects，课程的很多内容多多少少在一些地方看到过，不过作为补充的一些采访视频和博客很有意思。<br />
+这里是一些文章链接备份。</p>
+
+<ul>
+  <li><a href="https://www.scotthyoung.com/blog/2015/01/19/speed-reading-redo/">I Was Wrong About Speed Reading: Here are the Facts</a>
+&gt; None of these are magic fixes for your reading woes, but a mild treatment that works is better than a fantastic one which doesn’t.<br />
+ 作者特意对自己八年前关于阅读速度两倍速的文章进行了说明和纠正，超可爱！ 
+Reading Tip
+    <ol>
+      <li>Skim Before You Read<br />
+Knowing how an article or book is structured</li>
+      <li>Improve Your Fluency to Improve Your Speed</li>
+      <li>Know What You Want, Before You Read It</li>
+      <li>Deeper Processing Tasks to Improve Retention<br />
+Highlighting causes you to think about bolded words, not what they means.<br />
+ 啦啦啦，不用鬼画符这点，甚合朕意。</li>
+    </ol>
+  </li>
+  <li>
+    <p><a href="http://medicalxpress.com/news/2014-06-poor-health-lifestyle-factors-linked.html">Poor health, lifestyle factors linked to memory complaints, even among younger adults</a><br />
+我这么沮丧，可能是低落起来生活习惯更糟糕，缺乏运动睡眠不足的恶性循环吧。</p>
+  </li>
+  <li><a href="http://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work/">This is the kind of music you should listen to at work</a><br />
+很好，现在我的音乐收藏可以分为了 作业向、死线专用、小说时间、抖腿 四个栏目。</li>
+</ul>
+
+<blockquote>
+  <p>If you’re depressed, don’t get enough exercise or have high blood pressure, you may find yourself complaining more about memory problems</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><a href="http://time.com/79937/how-studying-or-working-abroad-makes-you-smarter/">How Studying or Working Abroad Makes You Smarter</a><br />
+multicultural engagement的神奇之处，这算强行给自己找动力吗？</p>
+  </li>
+  <li>
+    <p><a href="http://psp.sagepub.com/content/36/6/731.full.pdf+html">When in Rome . . . Learn Why the Romans Do What They Do: How Multicultural Learning Experiences Facilitate Creativity</a>
+&gt; Results showed that creativity was enhanced only when participants recalled a functional multicultural learning experience and only when participants had previously lived abroad. 
+&gt; Overall, multicultural learning appears to be an
+important mechanism by which foreign living experiences lead to creative enhancement.</p>
+  </li>
+</ul>
+]]></content>
+	</entry>
+	
+	<entry>
+		<title>老司机迟到前如何紧急作业达到塑形效果（《走姿》笔记）</title>
+		<link href="http://stillnoon.com/posts/walking-for-health.html" />
+		<updated>2016-08-08T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/walking-for-health.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>因为这本<a href="https://www.amazon.cn/%E6%94%B9%E5%8F%98%E5%A5%B3%E6%80%A7%E6%B0%94%E8%B4%A8%E7%9A%84%E9%87%8D%E8%A6%81%E5%8F%91%E7%8E%B0-%E8%B5%B0%E5%A7%BF-%E5%90%95%E6%99%93%E5%86%9B/dp/B01HRSOB52/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1470674696&amp;sr=1-1&amp;keywords=%E8%B5%B0%E5%A7%BF">《走姿》</a>废话太多，但在找发力点上的一些小技巧值得学习。总结一份留作检查每日走姿、坐姿。</p>
+</blockquote>
+
+<p>葛优躺作为反面教材，很可能造成虎背熊腰，大腹便便。<br />
+心好累，到底是舒服重要还是腰肌劳损重要？
+越是舒服越可能久坐，甚至成为憋尿小能手，而肌肉疲劳时的提醒也会被弯腰驼背所隐瞒。</p>
+
+<p>人参真是没有一天可以松懈。</p>
+
+<ol>
+  <li>最好别带包</li>
+  <li>直线走，纠正外八字
+    <ul>
+      <li>脚尖向前，两脚平行，一前一后在一条直线上</li>
+      <li>保持身体挺直，重心上提。<br />
+头顶放书<br />
+头顶&amp;横膈膜。<br />
+头顶上提，带动脖子用力向上伸长、挺直。横膈膜上提并稳住，推动胸部上提高<br />
+横隔膜：胸腔和腹腔之间的分隔，通俗讲，它位于心脏和双侧肺脏的下面，肝脏、脾脏、胃的上方，就像一个大圆盘平放在身体内部分隔了胸腹腔，随着呼吸运动而上下运动。</li>
+      <li>膝盖互相摩擦
+ 练习时尽量让膝盖互相摩擦（即一个膝盖的内侧主动取碰另一个膝盖的内侧）尽力将髋部、臀部送出</li>
+      <li>钟摆运动</li>
+    </ul>
+  </li>
+  <li>大步走！！！瘦大腿！甩“蝴蝶袖”！
+大腿根部贺下腹部结合处容易堆积赘肉。
+    <ul>
+      <li>稳住身形，步子跨到极限<br />
+髋部臀部最大限度随迈出去的腿一并送出，另一条着地的退用力挺直并收紧臀部，
+起到支撑点的作用。<br />
+脚落地时，大腿根部对小腹有牵扯拉动的感觉，否则，上身没有保持直立</li>
+      <li>上身保持直立<br />
+向上提起身体的重心，即让自己的头顶和横膈膜上提，帮助上身直立</li>
+      <li>脚尖朝向正前方，脚后跟先着地</li>
+      <li>快速走，速度与呼吸对应
+深呼吸<br />
+注意髋部运动<br />
+提胸，腰部拉直，臀部会自然上翘<br />
+非常适合于老司机极限飘移快要迟到时的紧急作业</li>
+      <li>甩臂
+提起头顶，微收下颌，挺住脖子，双肩自然向下<br />
+双肩向后收夹时，大臂后部的肌肉有明显紧张感，向前甩时依然要紧绷<br />
+保持提胸</li>
+    </ul>
+  </li>
+  <li>坐姿
+恩，就是让人觉得不舒服又很端正的姿势
+    <ul>
+      <li>臀部只坐到凳子三分之一的地方</li>
+      <li>双腿并拢或两脚交叉，挺起横膈膜，顶起胸部，带动胃部、腰部、腹部上提收缩。</li>
+      <li>提起头顶，带动颈部竖直，双肩自然下垂向后收夹</li>
+      <li>撅臀收腹</li>
+      <li>累就加靠垫</li>
+    </ul>
+  </li>
+  <li>站姿
+依然是很不舒服的姿势。
+    <ul>
+      <li>双腿平行，两脚间距约一个拳头的距离，左右膝盖用力后压，保持双腿直立并有力，大腿根贺臀部结合处用力
+收紧。</li>
+      <li>提起头顶，带动颈部竖直。</li>
+      <li>双肩自然下垂，胸部自然打开向后压。</li>
+      <li>提起横膈膜、顶起胸部，带动胃部、腰部、腹部上提收缩。</li>
+      <li>整个过程中，臀部被上提</li>
+      <li>注意收紧臀部和腹部</li>
+    </ul>
+  </li>
+  <li>Tips</li>
+</ol>
+
+<ul>
+  <li>勾手伸臂<br />
+提起头顶，微收下颌，挺起横膈膜，顶起胸部，双肩放松，两手侧平举和肩同高，五指并拢手掌慢慢朝上，手掌手臂逐渐成90°<br />
+接下来，慢慢向前方转动手臂，手掌和手指超前呈钩手状<br />
+放下手臂<br />
+重复以上动作</li>
+  <li>站立收臀
+两腿并拢，两脚尖朝外呈“一”字形，身体尽量向上挺直，臀部收紧上翘<br />
+保持半分钟</li>
+  <li>膝盖后压
+减轻双腿不直的问题<br />
+双腿并拢，两膝盖尽量向后压里挤，相互靠拢，上身保持直立，提胸提头顶<br />
+腹式呼吸，保持呼吸均匀<br />
+持续动作直到身体被掏空</li>
+</ul>
+
+]]></content>
+	</entry>
+	
+	<entry>
+		<title>您的当前网络有.local域，我们不建议这样做</title>
+		<link href="http://stillnoon.com/posts/150-till-2017.html" />
+		<updated>2016-08-07T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/150-till-2017.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>ubuntu开机时提示“您的当前网络有.local域，我们不建议这样做而且这与AVAHI网络服务探测不兼容。该服务已被禁用。”</p>
+</blockquote>
+
+<p>修改 /etc/default/avahi-daemon</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo -i  
+gedit /etc/default/avahi-daemon
+</code></pre>
+</div>
+
+<p>将“AVAHI_DAEMON_DETECT_LOCAL=1”修改为“AVAHI_DAEMON_DETECT_LOCAL=0”</p>
+
+<p><a href="http://askubuntu.com/questions/339702/network-service-discovery-disabled-what-does-this-mean-for-me">Source Link</a></p>
+
+]]></content>
+	</entry>
+	
+	<entry>
+		<title>今年已经过去218天，距2017年还有148天</title>
+		<link href="http://stillnoon.com/posts/148-till-2017.html" />
+		<updated>2016-08-05T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/148-till-2017.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>You are attempting to use the ‘pygments’ highlighter, which is currently unsupported on GitHub Pages. Your site will use ‘rouge’ for highlighting instead. To suppress this warning, change the ‘highlighter’ value to ‘rouge’ in your ‘_config.yml’ and ensure the ‘pygments’ key is unset.</p>
+</blockquote>
+
+<p>很喜欢这个简洁的主题，于是偷换上了自己的名字。</p>
+
+<p>接下来需要更改一些东西，整理中途跳进的坑。</p>
+
+<p>然后收集以往的文章，进行归档分类，增加功能。</p>
+]]></content>
+	</entry>
+	
+	<entry>
+		<title>今年已经过去217天，距2017年还有149天</title>
+		<link href="http://stillnoon.com/posts/till-2017.html" />
+		<updated>2016-08-04T00:00:00+08:00</updated>
+		<id>http://stillnoon.com/posts/till-2017.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>此篇如若能显示出来，需要感谢群众的智慧。
+作为个人博客的开篇，遭遇了根本停不下来ssh与github pages 404问题，心生沮丧。</p>
+</blockquote>
+
+<p>虽然我依旧不明白为什么之前会导致404，感谢lengae在<a href="https://github.com/swanson/lagom.com">lagom</a>基础上的修改</p>
+
+<ul>
+  <li>
+    <p>ubuntu16.04LTS + github pages + jekyll</p>
+  </li>
+  <li>
+    <p>2016-08-04  fork了<a href="https://github.com/lenage/blog.lenage.com">lenage</a> 的Jekyll theme</p>
+  </li>
+</ul>
+
+]]></content>
+	</entry>
+	
+</feed>
