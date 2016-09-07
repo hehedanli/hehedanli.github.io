@@ -6,10 +6,11 @@
 <meta name="keywords" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>StillNoon / MyException</title>
-<link href="http://stillnoon.com/feed.xml" rel="alternate" title="StillNoon" type="application/atom+xml" />
+<link href="http://127.0.0.1/feed.xml" rel="alternate" title="StillNoon" type="application/atom+xml" />
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/site.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/code/github.css" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -26,17 +27,56 @@
 
 
 
+<article content-loaded="1">
+	<h2><a href="/posts/jekyll-error-requested-address.html">jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2) for </a></h2>
+	<p class="meta">
+	<span class="datetime">2016-09-07</span> posted in [<a href="/category/myexception" class="category">MyException</a>]
+</p>
+	<div class="article-content">
+	
+		<blockquote>
+  <p>运行jekyll server，报错——<br />
+jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2)</p>
+</blockquote>
+
+<p>修改主题为自己的站点时，参考极简灰作者的说明，无法运行jekyll预览的情况下，push了文件，留到今天来修改。<br />
+参考<a href="http://jekyllcn.com/docs/configuration/">jekyll配置说明</a>  服务器选项</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>detach:  false
+port:    4000 
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+</code></pre>
+</div>
+
+<p>修改时将_config.yml文件中的变量host修改为站点域名，产生冲突（或许是我哪里没设置对？）。</p>
+
+<p>解决方案：将_config.yml文件中的host: stillnoon.com修改为url: stillnoon.com</p>
+
+<p>PS:markdown语法中，代码行和前后要有空行</p>
 
 
-<article class="empty">
-	<p>该分类下还没有文章</p>
+	
+	</div>
+</article>
+
+<article>
+	<h2><a href="/posts/150-till-2017.html">您的当前网络有.local域，我们不建议这样做</a></h2>
+	<p class="meta">
+	<span class="datetime">2016-08-07</span> posted in [<a href="/category/myexception" class="category">MyException</a>]
+</p>
+	<div class="article-content">
+	
+	</div>
 </article>
 
 
 
 
+
+
 	<footer>
-		<p>&copy; 2016<a href="http://github.com/hehedanli" target="_blank">github.com/hehedanli</a></p>
+		<p>&copy; Since 2016<a href="http://github.com/hehedanli" target="_blank">  github.com/hehedanli</a></p>
 	</footer>
 </div>
 
@@ -47,28 +87,33 @@
 		<ul>
 		<li class="think"><a href="/category/think/">Think</a></li>
 		<li class="reading"><a href="/category/reading/">Reading</a></li>
-		<li class="exception"><a href="/category/exception/">MyException</a></li>
+		<li class="myexception"><a href="/category/myexception/">MyException</a></li>
 		<li class="tools"><a href="/category/tools/">Tools</a></li>
 		<li class="python"><a href="/category/python/">Python</a></li>
-		<li class="about"><a href="/category/about/">About</a></li>
 		
 		</ul>
 	</nav>
 	
 	<form action="/search/" class="block block-search">
 		<h3>Search</h3>
-		<p><input type="search" name="q" placeholder="Search" /></p>
+		<p><input type="search" name="q" placeholder="关键词搜索" /></p>
 	</form>
 	
 	<div class="block block-about">
-		<h3>About</h3>
-		<figure>
-			
-			<figcaption><strong>hehedanli</strong></figcaption>
-		</figure>
-		<p>Write something about yourself.</p>
-	</div>
+		<h3>About</h3> 
+
+	<div class="block block-fork">
 	
+		<a title="on Github" href="https://github.com/hehedanli"><i class="fa fa-github" aria-hidden="true"></i></a>
+	
+	</div>
+		<figure>
+		
+			<figcaption><strong>hehedanli </strong></figcaption>
+		</figure>
+		<p>不定时更新废话</p>
+	</div>
+
 	<div class="block block-license">
 		<h3>Copyright</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
@@ -81,9 +126,9 @@
 			<a href="http://disqus.com/" target="_blank">Disqus</a>,
 			<a href="http://elfjs.com/" target="_blank">elf+js</a>,
 			<a href="https://github.com/" target="_blank">GitHub</a>,
+			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="http://www.google.com/cse/" target="_blank">Google Custom Search</a>,
 			<a href="http://en.gravatar.com/" target="_blank">Gravatar</a>,
-			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
 		</p>

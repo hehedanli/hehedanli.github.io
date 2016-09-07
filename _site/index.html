@@ -6,10 +6,11 @@
 <meta name="keywords" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>StillNoon</title>
-<link href="http://stillnoon.com/feed.xml" rel="alternate" title="StillNoon" type="application/atom+xml" />
+<link href="http://127.0.0.1/feed.xml" rel="alternate" title="StillNoon" type="application/atom+xml" />
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/site.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/code/github.css" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -22,143 +23,38 @@
 
 <header>
 	<h1>StillNoon</h1>
-	<p class="additional">Time is running out.</p>
+	<p class="additional">Pause and ponder.</p>
 </header>
 
 
 
 <article content-loaded="1">
-	<h2><a href="/posts/modle-thinking-week-1.html">Notes for Model Thinking week 1</a></h2>
+	<h2><a href="/posts/jekyll-error-requested-address.html">jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2) for </a></h2>
 	<p class="meta">
-	<span class="datetime">2016-09-04</span> posted in [<a href="/category/reading" class="category"></a>]
+	<span class="datetime">2016-09-07</span> posted in [<a href="/category/myexception" class="category">MyException</a>]
 </p>
 	<div class="article-content">
 	
 		<blockquote>
-  <p>推荐邮件中出现了<a href="https://www.coursera.org/learn/model-thinking">Model Thinking</a>这门课，好奇之下注册，第一周笔记整理````虽然迟了一周。</p>
+  <p>运行jekyll server，报错——<br />
+jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2)</p>
 </blockquote>
 
-<p>狂飙语速的Scott Page介绍上写着“ Professor of Complex Systems, Political Science, and Economics”，似乎不少讲课程理解为数理上的“模型”的同学有些失望。教授用经济学中的一些小例子授课，配套了视频件插入的练习，每周的测验也很简单，和其他课程比起，只要把视频看完，过起来很轻松。<br />
-week 1 的视频时常约2小时，加上语速快，看了两天。</p>
+<p>修改主题为自己的站点时，参考极简灰作者的说明，无法运行jekyll预览的情况下，push了文件，留到今天来修改。<br />
+参考<a href="http://jekyllcn.com/docs/configuration/">jekyll配置说明</a>  服务器选项</p>
 
-<h2 id="why-model">Why Model</h2>
-<p>一个模型解决多种问题vs 多种模型解决一个问题。</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>detach:  false
+port:    4000 
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+</code></pre>
+</div>
 
-<h3 id="how-models-help-us">how models help us</h3>
-<p>Essentially ,all models are wrong , but some are useful<br />
-formal model is best</p>
+<p>修改时将_config.yml文件中的变量host修改为站点域名，产生冲突（或许是我哪里没设置对？）。</p>
 
-<ul>
-  <li>
-    <p>A clearner Thinker<br />
-name the parts.<br />
-identify relationship.<br />
-work through logic,outcome.</p>
-  </li>
-  <li>
-    <p>Inducting example</p>
-  </li>
-  <li>
-    <p>4 outcome
-equilibrium<br />
-cycle<br />
-random<br />
-complex<br />
-models can predict witch will happen.</p>
-  </li>
-  <li>
-    <p>Identify logical boundaris</p>
-  </li>
-  <li>
-    <p>Communicate</p>
-  </li>
-</ul>
+<p>解决方案：将_config.yml文件中的host: stillnoon.com修改为url: stillnoon.com</p>
 
-<h3 id="how-to-use-and-understand-data">how to use and understand data</h3>
-<ul>
-  <li>Understand Patterns</li>
-  <li>Produce bounds</li>
-  <li>Predict points</li>
-  <li>Retrodict</li>
-  <li>Predict other</li>
-  <li>
-    <p>Inform data collection<br />
-teacher quality<br />
-parental status<br />
-total spending<br />
-class size<br />
-technology<br />
-health<br />
-peer effct</p>
-  </li>
-  <li>Estimate Hidden Praraeters<br />
-eg: SIR</li>
-  <li>Calibarate</li>
-</ul>
-
-<h2 id="use-model-to-decidestrategizeand-design">Use model to decide,strategize,and design</h2>
-<ul>
-  <li>Decision aids</li>
-  <li>Comparatize statics</li>
-  <li>Canterfactuals</li>
-  <li>Identify and rank leves</li>
-  <li>Experimental design</li>
-  <li>Institutional design</li>
-  <li>Help choose among policies institutions</li>
-</ul>
-
-<h2 id="segregation-and-peer-effects">Segregation and Peer Effects</h2>
-
-<p>reason 1 : sorting effect<br />
-reason 2 : peer effect</p>
-
-<p>classifaction:<br />
-* Equation based model<br />
-* Agent based model<br />
-  individuals<br />
-  behaviors<br />
-  outcomes</p>
-
-<h3 id="schelling">1.Schelling</h3>
-<p>measuring segregation</p>
-
-<h3 id="granoveretter">2.Granoveretter</h3>
-<p>N individuals<br />
-  each has a thresholds(阈值)<br />
-  more likely if lowrer Thresholds,more variation in Thresholds.</p>
-
-<h3 id="standing-oration">3.Standing Oration</h3>
-<p>Threshold to Stand:T<br />
-  Quality:Q  (0,100)<br />
-  Signal : S = Q + E
-  Initial Rule : if S &gt; T<br />
-  Subsequent Rule : stand ,if more x% stand (x :  % join)</p>
-
-<ul>
-  <li>make more poepel standing:<br />
-  (1)Higher Quality.<br />
-  (2)Lower Threshold.<br />
-  (3)Larger Peer Effects.<br />
-  (4)More Variation.(*)<br />
-  (5)Use Celebrities 前排放托<br />
-  (6)Big Groups</li>
-  <li>/&gt; 40%</li>
-  <li>
-    <p>apply：<br />
-a. collective action<br />
-b. academic perfomance<br />
-c. urban renewal<br />
-d. fitness/health<br />
-e. online course</p>
-  </li>
-  <li>how to get a larger E: <br />
-E:error;diversity<br />
- Q &lt; \T,more variaatuon in E,more stand,S &gt; T.
-audience and performace.</li>
-</ul>
-
-<h3 id="identification">4.Identification</h3>
-<p>sorting vs peer effect</p>
+<p>PS:markdown语法中，代码行和前后要有空行</p>
 
 
 	
@@ -166,9 +62,19 @@ audience and performace.</li>
 </article>
 
 <article>
+	<h2><a href="/posts/modle-thinking-week-1.html">Notes for Model Thinking week 1</a></h2>
+	<p class="meta">
+	<span class="datetime">2016-09-04</span> posted in [<a href="/category/reading" class="category">Reading</a>]
+</p>
+	<div class="article-content">
+	
+	</div>
+</article>
+
+<article>
 	<h2><a href="/posts/I-See.html">七月廿三</a></h2>
 	<p class="meta">
-	<span class="datetime">2016-08-25</span> posted in [<a href="/category/reflections" class="category"></a>]
+	<span class="datetime">2016-08-25</span> posted in [<a href="/category/think" class="category">Think</a>]
 </p>
 	<div class="article-content">
 	
@@ -178,7 +84,7 @@ audience and performace.</li>
 <article>
 	<h2><a href="/posts/Learn-How-to-Learn.html">少吃零食多看报，早睡多动勤用脑</a></h2>
 	<p class="meta">
-	<span class="datetime">2016-08-16</span> posted in [<a href="/category/reading" class="category"></a>]
+	<span class="datetime">2016-08-16</span> posted in [<a href="/category/reading" class="category">Reading</a>]
 </p>
 	<div class="article-content">
 	
@@ -188,7 +94,7 @@ audience and performace.</li>
 <article>
 	<h2><a href="/posts/walking-for-health.html">老司机迟到前如何紧急作业达到塑形效果（《走姿》笔记）</a></h2>
 	<p class="meta">
-	<span class="datetime">2016-08-08</span> posted in [<a href="/category/reading" class="category"></a>]
+	<span class="datetime">2016-08-08</span> posted in [<a href="/category/reading" class="category">Reading</a>]
 </p>
 	<div class="article-content">
 	
@@ -198,7 +104,7 @@ audience and performace.</li>
 <article>
 	<h2><a href="/posts/150-till-2017.html">您的当前网络有.local域，我们不建议这样做</a></h2>
 	<p class="meta">
-	<span class="datetime">2016-08-07</span> posted in [<a href="/category/myexception" class="category"></a>]
+	<span class="datetime">2016-08-07</span> posted in [<a href="/category/myexception" class="category">MyException</a>]
 </p>
 	<div class="article-content">
 	
@@ -208,7 +114,7 @@ audience and performace.</li>
 <article>
 	<h2><a href="/posts/148-till-2017.html">今年已经过去218天，距2017年还有148天</a></h2>
 	<p class="meta">
-	<span class="datetime">2016-08-05</span> posted in [<a href="/category/reflections" class="category"></a>]
+	<span class="datetime">2016-08-05</span> posted in [<a href="/category/think" class="category">Think</a>]
 </p>
 	<div class="article-content">
 	
@@ -218,7 +124,7 @@ audience and performace.</li>
 <article>
 	<h2><a href="/posts/till-2017.html">今年已经过去217天，距2017年还有149天</a></h2>
 	<p class="meta">
-	<span class="datetime">2016-08-04</span> posted in [<a href="/category/reflections" class="category"></a>]
+	<span class="datetime">2016-08-04</span> posted in [<a href="/category/think" class="category">Think</a>]
 </p>
 	<div class="article-content">
 	
@@ -231,7 +137,7 @@ audience and performace.</li>
 
 
 	<footer>
-		<p>&copy; 2016<a href="http://github.com/hehedanli" target="_blank">github.com/hehedanli</a></p>
+		<p>&copy; Since 2016<a href="http://github.com/hehedanli" target="_blank">  github.com/hehedanli</a></p>
 	</footer>
 </div>
 
@@ -242,28 +148,33 @@ audience and performace.</li>
 		<ul>
 		<li class="think"><a href="/category/think/">Think</a></li>
 		<li class="reading"><a href="/category/reading/">Reading</a></li>
-		<li class="exception"><a href="/category/exception/">MyException</a></li>
+		<li class="myexception"><a href="/category/myexception/">MyException</a></li>
 		<li class="tools"><a href="/category/tools/">Tools</a></li>
 		<li class="python"><a href="/category/python/">Python</a></li>
-		<li class="about"><a href="/category/about/">About</a></li>
 		
 		</ul>
 	</nav>
 	
 	<form action="/search/" class="block block-search">
 		<h3>Search</h3>
-		<p><input type="search" name="q" placeholder="Search" /></p>
+		<p><input type="search" name="q" placeholder="关键词搜索" /></p>
 	</form>
 	
 	<div class="block block-about">
-		<h3>About</h3>
-		<figure>
-			
-			<figcaption><strong>hehedanli</strong></figcaption>
-		</figure>
-		<p>Write something about yourself.</p>
-	</div>
+		<h3>About</h3> 
+
+	<div class="block block-fork">
 	
+		<a title="on Github" href="https://github.com/hehedanli"><i class="fa fa-github" aria-hidden="true"></i></a>
+	
+	</div>
+		<figure>
+		
+			<figcaption><strong>hehedanli </strong></figcaption>
+		</figure>
+		<p>不定时更新废话</p>
+	</div>
+
 	<div class="block block-license">
 		<h3>Copyright</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
@@ -276,9 +187,9 @@ audience and performace.</li>
 			<a href="http://disqus.com/" target="_blank">Disqus</a>,
 			<a href="http://elfjs.com/" target="_blank">elf+js</a>,
 			<a href="https://github.com/" target="_blank">GitHub</a>,
+			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="http://www.google.com/cse/" target="_blank">Google Custom Search</a>,
 			<a href="http://en.gravatar.com/" target="_blank">Gravatar</a>,
-			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
 		</p>

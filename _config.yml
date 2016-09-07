@@ -1,22 +1,23 @@
+markdown: kramdown
+highlighter: rouge
 safe: false
-#markdown: kramdown
-#highlighter: rouge
+lsi: false
 permalink: /posts/:title.html
 exclude:
   - README.md
 
 name: StillNoon
-host: stillnoon.com
-desc: Time is running out.
+url: stillnoon.com
+desc: Pause and ponder.
 
 custom:
     category:
         think: Think
-        redaing: Reading
-        exception: MyException
+        reading: Reading
+        myexception: MyException
         tools: Tools
         python: Python
-        about: About
+
     categories:
       - name:  think
         title: Think
@@ -24,7 +25,7 @@ custom:
       - name:  reading
         title: Reading
 
-      - name:  exception
+      - name:  myexception
         title: MyException
 
       - name:  tools
@@ -33,8 +34,6 @@ custom:
       - name:  python
         title: Python
 
-      - name:  about
-        title: About
     scrollingLoadCount: 0                          # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
@@ -44,8 +43,11 @@ meta:
         disqus: stillnoon               # Disqus缩略标识
         gcse: 014273410759249336696:p_rn5xps1vq     # Google自定义搜索标识ID
         github: hehedanli                 # GitHub账号
-        #gravatar:   #Gravatar头像标识
+        gravatar:   #Gravatar头像标识
+        stackoverflow: 6688045
+        weibo: hisplus
+        instagram: 
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
-    #gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
+    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
