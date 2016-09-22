@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github+Jekyll建站"
+title: "Github Pages +Jekyll建站"
 category: myexception
 ---
 
