@@ -28,34 +28,108 @@
 
 
 <article content-loaded="1">
+	<h2><a href="/posts/build-myown-blog-with-jekyll-and-githubpages.html">Github+Jekyll建站</a></h2>
+	<p class="meta">
+	<span class="datetime">2016-09-22</span> posted in [<a href="/category/myexception" class="category">MyException</a>]
+</p>
+	<div class="article-content">
+	
+		<blockquote>
+  <p>很早就想找个偏僻地方碎碎念，却一直没有一百块。</p>
+</blockquote>
+
+<p>日益完善的博客类产品和接踵而来的广告，或许是想督促着自己更新，找来网上的教程，一步步照做，从
+<a href="http://playingfingers.com/2016/03/26/build-a-blog/">Github Pages + Jekyll 独立博客一小时快速搭建&amp;上线指南</a>、<a href="http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/">如何搭建一个独立博客——简明 Github Pages与 jekyll 教程</a>学到了不少关于设置DNSpod解析域名，添加CNAME等等这些。<br />
+教程里很详细，我就不再重复了，作为存档，记录一下途中遇到的问题。</p>
+
+<ul>
+  <li>购买域名后手快点了支付宝付款，需要等待一段时间（也许是明天也许是很多天）后才会显示购买成功，用信用卡或银行卡会来得快一些。</li>
+  <li>
+    <p>荒废了很久的github重见天日，创建ssk密钥后连接失败。<br />
+  提示</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  Permission denied (publickey).
+</code></pre>
+    </div>
+
+    <p>解决方案：</p>
+
+    <p>先备份密钥</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ls -l
+  $ mkdir key_backup 
+  $ cp id_rsa* key_backup 
+  $ rm id_rsa*
+</code></pre>
+    </div>
+
+    <p>再次提示</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh -T git@github.com
+  Permission denied (publickey).
+</code></pre>
+    </div>
+
+    <p>加载私钥</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh-add -l
+  $ ssh -T git@github.com
+</code></pre>
+    </div>
+
+    <p>提示“Yo’ve successfully authenticated, but Github does not provide shell access.”</p>
+  </li>
+  <li>
+    <p>参考<a href="http://www.appinn.com/markdown/#p">Markdown 语法说明 (简体中文版)</a>进行书写</p>
+  </li>
+  <li>
+    <p>更换主题<br />
+<a href="https://github.com/mytharcher/SimpleGray">极简灰</a>中讲到“除非你想改进这个主题，否则请不要fork此项目作为你博客的起点，因为fork后你的所有提交和推送都会在整个network图中显示出来。所以更推荐你使用clone的方式创建自己的站点，以免给所有使用此主题的人造成干扰。”之前的fork可能给<a href="http://blog.lenage.com">lenage</a>造成了困扰,极简灰打开速度很快，故更改主题一探究竟。</p>
+  </li>
+  <li>
+    <p>Git问题总结<br />
+  1.在已经配好ssh key之后，新建helloworld仓库，试图讲之前建立的README.md文件上传失败，
+报错Permission denied (publickey).<br />
+解决方案：将新建的空仓库clone到本地后，再次上传。</p>
+
+    <p>2.在上传README.md到helloworld中时，最后一步出现<br />
+error:src refspec master does not match any<br />
+分析：由于空目录不能提交上去，前一步已经将文件添加到origin中 <br />
+解决方案：按照空目录处理，将git基本命令合集等文件一同上传</p>
+
+    <p>3.切换分支</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  $ git push origin master
+  error:src refspec master does not macth any.
+  error:无法推送一些引用到'https：//geithub.com/hehedanli/hehedanli.github.io'
+  $ git branch
+  * gh-pages
+  $ git checkout -b master
+  切换到一个新分支'master'
+  $ git branch
+    gh-pages
+  * master
+  $ git push origin master
+</code></pre>
+    </div>
+
+    <p>github pages需要在master分支上。</p>
+  </li>
+</ul>
+
+<p>听说离2017年到来只剩100天了，希望能偶尔更新。</p>
+
+
+	
+	</div>
+</article>
+
+<article>
 	<h2><a href="/posts/jekyll-error-requested-address.html">jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2) for </a></h2>
 	<p class="meta">
 	<span class="datetime">2016-09-07</span> posted in [<a href="/category/myexception" class="category">MyException</a>]
 </p>
 	<div class="article-content">
-	
-		<blockquote>
-  <p>运行jekyll server，报错——<br />
-jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2)</p>
-</blockquote>
-
-<p>修改主题为自己的站点时，参考极简灰作者的说明，无法运行jekyll预览的情况下，push了文件，留到今天来修改。<br />
-参考<a href="http://jekyllcn.com/docs/configuration/">jekyll配置说明</a>  服务器选项</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>detach:  false
-port:    4000 
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-</code></pre>
-</div>
-
-<p>修改时将_config.yml文件中的变量host修改为站点域名，产生冲突（或许是我哪里没设置对？）。</p>
-
-<p>解决方案：将_config.yml文件中的host: stillnoon.com修改为url: stillnoon.com</p>
-
-<p>PS:markdown语法中，代码行和前后要有空行</p>
-
-
 	
 	</div>
 </article>
