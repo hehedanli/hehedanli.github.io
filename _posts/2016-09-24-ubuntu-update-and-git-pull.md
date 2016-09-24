@@ -4,7 +4,7 @@ title: "ubuntu安装更新报错 & git pull"
 category: myexception
 ---
 
-# ubuntu安装更新报错资源被锁
+### ubuntu安装更新报错资源被锁
 
 > 从设置中安装更新，进度条始终卡在一半，下载内容的“详细”页面莫名其妙变成了空白，非常不信任自家网络的我，试图从终端看看`````由于不可抗力dl.google.com被我们纯洁的友谊净化了。  
 恍惚间又冒出了别的错误。  
@@ -42,7 +42,7 @@ category: myexception
 方法三：  
 首先在终端输入“ps -aux”查看是否有使用apt-get的程序,,找到使用apt-get的程序,查看其PID号,然后输入sudo kill PID 杀死该进程。  
 
-# 推送文章git push origin master报错  
+### 推送文章git push origin master报错  
 
 		error: 无法推送一些引用到 'https://github.com/hehedanli/hehedanli.github.io.git'
 		提示：更新被拒绝，因为远程仓库包含您本地尚不存在的提交。这通常是因为另外
