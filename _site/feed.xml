@@ -3,12 +3,30 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2016-09-24T20:44:39+08:00</updated>
+	<updated>2017-01-20T23:11:40+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去20天，距2018年还有345天</title>
+		<link href="http://127.0.0.1/posts/till-2018.html" />
+		<updated>2017-01-20T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>时隔太久，久到我已经忘掉了博客的存在。</p>
+</blockquote>
+
+<p>“你只是懦弱而已。”<br />
+脑袋里又回向起这句话来，看完了《Bref》，这种共鸣并不算好。<br />
+今天发现所有人都很辛苦，而我可能急需成功学教程洗脑。</p>
+
+<p>是的，幻想里的“明天”永远不会到来。<br />
+从今天起开启每日更新模式。</p>
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>ubuntu安装更新报错 &amp; git pull</title>
@@ -547,30 +565,6 @@ gedit /etc/default/avahi-daemon
 <p>接下来需要更改一些东西，整理中途跳进的坑。</p>
 
 <p>然后收集以往的文章，进行归档分类，增加功能。</p>
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>今年已经过去217天，距2017年还有149天</title>
-		<link href="http://127.0.0.1/posts/till-2017.html" />
-		<updated>2016-08-04T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/till-2017.html</id>
-		<content type="html"><![CDATA[<blockquote>
-  <p>此篇如若能显示出来，需要感谢群众的智慧。
-作为个人博客的开篇，遭遇了根本停不下来ssh与github pages 404问题，心生沮丧。</p>
-</blockquote>
-
-<p>虽然我依旧不明白为什么之前会导致404，感谢lengae在<a href="https://github.com/swanson/lagom.com">lagom</a>基础上的修改</p>
-
-<ul>
-  <li>
-    <p>ubuntu16.04LTS + github pages + jekyll</p>
-  </li>
-  <li>
-    <p>2016-08-04  fork了<a href="https://github.com/lenage/blog.lenage.com">lenage</a> 的Jekyll theme</p>
-  </li>
-</ul>
-
 ]]></content>
 	</entry>
 	
