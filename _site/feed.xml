@@ -3,12 +3,34 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-01-20T23:11:40+08:00</updated>
+	<updated>2017-01-22T00:01:51+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去21天，距2018年还有344天</title>
+		<link href="http://127.0.0.1/posts/till-2018.html" />
+		<updated>2017-01-21T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>镜子里的我眼神空洞肌肉僵硬。</p>
+</blockquote>
+
+<p>1.以为会怀念永远珍惜的东西，时间冲刷下很快就被忘掉了。年前大扫除，轻易丢掉了高三毕业后辛苦载回家的课本、试和笔记。而最喜爱的语文课本，距离被扔掉只剩两步之遥。<br />
+床底成为了藏污纳垢的最好去处，当年没参与装修的我，现在却在后悔床太低。</p>
+
+<p>2.窗帘拆下来还没来得及挂上，今天将是没有窗帘的夜晚，去迎接明早早起兼职司机回家上坟。 <br />
+希望明天能感觉好一点。</p>
+
+<p>3.晚上修电脑时间再次到来。<br />
+xp反复重启无法进入系统，安全模式能打开，pe引导启动程序修复无果；最后一步，试图在带命令行的安全模式下chkdsk引导修复。</p>
+
+<p>4.啊不小心错过了零点。</p>
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>今年已经过去20天，距2018年还有345天</title>
@@ -548,23 +570,6 @@ gedit /etc/default/avahi-daemon
 
 <p><a href="http://askubuntu.com/questions/339702/network-service-discovery-disabled-what-does-this-mean-for-me">Source Link</a></p>
 
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>今年已经过去218天，距2017年还有148天</title>
-		<link href="http://127.0.0.1/posts/148-till-2017.html" />
-		<updated>2016-08-05T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/148-till-2017.html</id>
-		<content type="html"><![CDATA[<blockquote>
-  <p>You are attempting to use the ‘pygments’ highlighter, which is currently unsupported on GitHub Pages. Your site will use ‘rouge’ for highlighting instead. To suppress this warning, change the ‘highlighter’ value to ‘rouge’ in your ‘_config.yml’ and ensure the ‘pygments’ key is unset.</p>
-</blockquote>
-
-<p>很喜欢这个简洁的主题，于是偷换上了自己的名字。</p>
-
-<p>接下来需要更改一些东西，整理中途跳进的坑。</p>
-
-<p>然后收集以往的文章，进行归档分类，增加功能。</p>
 ]]></content>
 	</entry>
 	
