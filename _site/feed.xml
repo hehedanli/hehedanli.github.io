@@ -3,12 +3,26 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-01-22T00:01:51+08:00</updated>
+	<updated>2017-01-22T22:49:14+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去22天，距2018年还有343天</title>
+		<link href="http://127.0.0.1/posts/till-2018.html" />
+		<updated>2017-01-22T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>心不在焉，无话可说。</p>
+</blockquote>
+
+<p>可以在支付宝上买个意外险保猝死了。</p>
+
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>今年已经过去21天，距2018年还有344天</title>
@@ -546,29 +560,6 @@ important mechanism by which foreign living experiences lead to creative enhance
 腹式呼吸，保持呼吸均匀<br />
 持续动作直到身体被掏空</li>
 </ul>
-
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>您的当前网络有.local域，我们不建议这样做</title>
-		<link href="http://127.0.0.1/posts/150-till-2017.html" />
-		<updated>2016-08-07T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/150-till-2017.html</id>
-		<content type="html"><![CDATA[<blockquote>
-  <p>ubuntu开机时提示“您的当前网络有.local域，我们不建议这样做而且这与AVAHI网络服务探测不兼容。该服务已被禁用。”</p>
-</blockquote>
-
-<p>修改 /etc/default/avahi-daemon</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo -i  
-gedit /etc/default/avahi-daemon
-</code></pre>
-</div>
-
-<p>将“AVAHI_DAEMON_DETECT_LOCAL=1”修改为“AVAHI_DAEMON_DETECT_LOCAL=0”</p>
-
-<p><a href="http://askubuntu.com/questions/339702/network-service-discovery-disabled-what-does-this-mean-for-me">Source Link</a></p>
 
 ]]></content>
 	</entry>
