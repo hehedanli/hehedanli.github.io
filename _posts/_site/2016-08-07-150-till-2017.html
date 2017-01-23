@@ -1,0 +1,15 @@
+<blockquote>
+  <p>ubuntu开机时提示“您的当前网络有.local域，我们不建议这样做而且这与AVAHI网络服务探测不兼容。该服务已被禁用。”</p>
+</blockquote>
+
+<p>修改 /etc/default/avahi-daemon</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo -i  
+gedit /etc/default/avahi-daemon
+</code></pre>
+</div>
+
+<p>将“AVAHI_DAEMON_DETECT_LOCAL=1”修改为“AVAHI_DAEMON_DETECT_LOCAL=0”</p>
+
+<p><a href="http://askubuntu.com/questions/339702/network-service-discovery-disabled-what-does-this-mean-for-me">Source Link</a></p>
+
