@@ -3,12 +3,36 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-01-26T00:45:09+08:00</updated>
+	<updated>2017-01-27T01:36:14+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去26天，距2018年还有339天</title>
+		<link href="http://127.0.0.1/posts/till-2018.html" />
+		<updated>2017-01-26T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>无限拖延中，卸掉又下回的微博。</p>
+</blockquote>
+
+<p>1.前往妹妹家的路上自行车掉了链子，妄想自己动手解开扭曲的车链，最后还是得靠修车师傅指点江山。好的，可以换辆新的了。 <br />
+2.等修完车妹妹可能就被我饿死在家了，急匆匆乘上三轮车，却被师傅扔在了没开门的小区后门，唉，前路坎坷。 <br />
+3.虾米的口令红包很神奇，分享给好友只有两个人领，没分享却突然冒出很多人领取。大概是随手写的口令暗含了不少人的需求？ <br />
+4.团年饭成为了唯一一个没有喝酒的司机，花了两小时送人回家，途中不小心闯了拿到驾照来的第一个红灯，希望背了这么多锅的我能找到人替我一下。 <br />
+5.冒着爆棚的pm2.5终于看了《降临》。睡得很香的妈妈被明亮的画面晃醒，看完了出来问我：三千年后，雾霾有这么重了？ <br />
+依然是迟到了7分钟看上电影，似乎没有错过多少情节，看完有多学几种语言的冲动，联想到罗孚讲电台被干扰时法语频道依然清晰，立马有了学习的动力。 <br />
+5.繁忙的寒假里，总和小伙伴错开了时间。自从有了观影小伙伴就忘掉了一个人怎么看的电影吃的火锅。为什么一定要和人一起呢？我可能是太想获取别人的情绪了，需要继续单人模式。 <br />
+6.兼职司机如我，还在等待爸爸呼叫回家的指令。每年年关都过的格外辛苦，我该早点体察到爸爸的心情的，前几天不该冲他发脾气。 <br />
+这大概是妈妈希望我规律生活的原因吧，毕竟过年出租车会涨价。<br />
+—-更新—-<br />
+爸爸竟然自己开车回来了。</p>
+
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>今年已经过去25天，距2018年还有340天</title>
@@ -325,140 +349,6 @@ baseurl: "" # does not include hostname
 <p>解决方案：将_config.yml文件中的host: stillnoon.com修改为url: stillnoon.com</p>
 
 <p>PS:markdown语法中，代码行和前后要有空行</p>
-
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>Notes for Model Thinking week 1</title>
-		<link href="http://127.0.0.1/posts/modle-thinking-week-1.html" />
-		<updated>2016-09-04T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/modle-thinking-week-1.html</id>
-		<content type="html"><![CDATA[<blockquote>
-  <p>推荐邮件中出现了<a href="https://www.coursera.org/learn/model-thinking">Model Thinking</a>这门课，好奇之下注册，第一周笔记整理````虽然迟了一周。</p>
-</blockquote>
-
-<p>狂飙语速的Scott Page介绍上写着“ Professor of Complex Systems, Political Science, and Economics”，似乎不少讲课程理解为数理上的“模型”的同学有些失望。教授用经济学中的一些小例子授课，配套了视频件插入的练习，每周的测验也很简单，和其他课程比起，只要把视频看完，过起来很轻松。<br />
-week 1 的视频时常约2小时，加上语速快，看了两天。</p>
-
-<h2 id="why-model">Why Model</h2>
-<p>一个模型解决多种问题vs 多种模型解决一个问题。</p>
-
-<h3 id="how-models-help-us">how models help us</h3>
-<p>Essentially ,all models are wrong , but some are useful<br />
-formal model is best</p>
-
-<ul>
-  <li>
-    <p>A clearner Thinker<br />
-name the parts.<br />
-identify relationship.<br />
-work through logic,outcome.</p>
-  </li>
-  <li>
-    <p>Inducting example</p>
-  </li>
-  <li>
-    <p>4 outcome
-equilibrium<br />
-cycle<br />
-random<br />
-complex<br />
-models can predict witch will happen.</p>
-  </li>
-  <li>
-    <p>Identify logical boundaris</p>
-  </li>
-  <li>
-    <p>Communicate</p>
-  </li>
-</ul>
-
-<h3 id="how-to-use-and-understand-data">how to use and understand data</h3>
-<ul>
-  <li>Understand Patterns</li>
-  <li>Produce bounds</li>
-  <li>Predict points</li>
-  <li>Retrodict</li>
-  <li>Predict other</li>
-  <li>
-    <p>Inform data collection<br />
-teacher quality<br />
-parental status<br />
-total spending<br />
-class size<br />
-technology<br />
-health<br />
-peer effct</p>
-  </li>
-  <li>Estimate Hidden Praraeters<br />
-eg: SIR</li>
-  <li>Calibarate</li>
-</ul>
-
-<h2 id="use-model-to-decidestrategizeand-design">Use model to decide,strategize,and design</h2>
-<ul>
-  <li>Decision aids</li>
-  <li>Comparatize statics</li>
-  <li>Canterfactuals</li>
-  <li>Identify and rank leves</li>
-  <li>Experimental design</li>
-  <li>Institutional design</li>
-  <li>Help choose among policies institutions</li>
-</ul>
-
-<h2 id="segregation-and-peer-effects">Segregation and Peer Effects</h2>
-
-<p>reason 1 : sorting effect<br />
-reason 2 : peer effect</p>
-
-<p>classifaction:<br />
-* Equation based model<br />
-* Agent based model<br />
-  individuals<br />
-  behaviors<br />
-  outcomes</p>
-
-<h3 id="schelling">1.Schelling</h3>
-<p>measuring segregation</p>
-
-<h3 id="granoveretter">2.Granoveretter</h3>
-<p>N individuals<br />
-  each has a thresholds(阈值)<br />
-  more likely if lowrer Thresholds,more variation in Thresholds.</p>
-
-<h3 id="standing-oration">3.Standing Oration</h3>
-<p>Threshold to Stand:T<br />
-  Quality:Q  (0,100)<br />
-  Signal : S = Q + E
-  Initial Rule : if S &gt; T<br />
-  Subsequent Rule : stand ,if more x% stand (x :  % join)</p>
-
-<ul>
-  <li>make more poepel standing:<br />
-  (1)Higher Quality.<br />
-  (2)Lower Threshold.<br />
-  (3)Larger Peer Effects.<br />
-  (4)More Variation.(*)<br />
-  (5)Use Celebrities 前排放托<br />
-  (6)Big Groups</li>
-  <li>/&gt; 40%</li>
-  <li>
-    <p>apply：<br />
-a. collective action<br />
-b. academic perfomance<br />
-c. urban renewal<br />
-d. fitness/health<br />
-e. online course</p>
-  </li>
-  <li>how to get a larger E: <br />
-E:error;diversity<br />
- Q &lt; \T,more variaatuon in E,more stand,S &gt; T.
-audience and performace.</li>
-</ul>
-
-<h3 id="identification">4.Identification</h3>
-<p>sorting vs peer effect</p>
 
 ]]></content>
 	</entry>
