@@ -3,12 +3,30 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-01-27T01:36:14+08:00</updated>
+	<updated>2017-01-28T00:57:31+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去27天，距2018年还有338天</title>
+		<link href="http://127.0.0.1/posts/till-2018.html" />
+		<updated>2017-01-27T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>希望大家收下了重复的祝福，充满勇气和力量面对一切。</p>
+</blockquote>
+
+<p>1.年轻一辈的聚会很无趣，每个人都显得很神秘，即使是吃东西也很尴尬，反复冷场。<br />
+强撑着只睡了五小时的脑袋玩反应力游戏。在真心话大冒险环节撒了谎，我没有见过凌晨四点的纽约，怎么会懂得爱?<br />
+2.看了一下午铺子，赶来结账的人太。玩手机之余遇到了一只灵活跳上搅拌机的野猫，不敢靠近。<br />
+3.春晚作为保留节目提醒你必须努力生活。小品为新年反婚打响第一枪，戏曲部分何赛飞很美，情不自禁听了十遍《牡丹亭外》，有点想哭。然后搜索左小祖咒，点开抹去名字的《我爱这土地》。<br />
+4.节日，大概总是期待从明天开始，不再重复痛苦。</p>
+
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>今年已经过去26天，距2018年还有339天</title>
@@ -320,35 +338,6 @@ error:src refspec master does not match any<br />
 </ul>
 
 <p>听说离2017年到来只剩100天了，希望能偶尔更新。</p>
-
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2) for </title>
-		<link href="http://127.0.0.1/posts/jekyll-error-requested-address.html" />
-		<updated>2016-09-07T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/jekyll-error-requested-address.html</id>
-		<content type="html"><![CDATA[<blockquote>
-  <p>运行jekyll server，报错——<br />
-jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2)</p>
-</blockquote>
-
-<p>修改主题为自己的站点时，参考极简灰作者的说明，无法运行jekyll预览的情况下，push了文件，留到今天来修改。<br />
-参考<a href="http://jekyllcn.com/docs/configuration/">jekyll配置说明</a>  服务器选项</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>detach:  false
-port:    4000 
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-</code></pre>
-</div>
-
-<p>修改时将_config.yml文件中的变量host修改为站点域名，产生冲突（或许是我哪里没设置对？）。</p>
-
-<p>解决方案：将_config.yml文件中的host: stillnoon.com修改为url: stillnoon.com</p>
-
-<p>PS:markdown语法中，代码行和前后要有空行</p>
 
 ]]></content>
 	</entry>
