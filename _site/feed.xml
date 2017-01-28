@@ -3,12 +3,36 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-01-28T00:57:31+08:00</updated>
+	<updated>2017-01-29T01:54:47+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去28天，距2018年还有337天</title>
+		<link href="http://127.0.0.1/posts/till-2018.html" />
+		<updated>2017-01-28T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>成功学救不了我。</p>
+</blockquote>
+
+<p>1.与友z顺道回家，讨论了扛过33给人当后妈的可行性。<br />
+2.与友t聊自己书读太少见识太浅情况下的盲目行为，为十年前的自己找到了借口。<br />
+3.打了三份工的弟弟趁堵在高速的时间，给我讲了他如何用成功学给自己洗脑。我试图讲出自己对生活毫无期待，但他确实很认真的在开导我，我只能讲俘虏营里也是这样的。“选择成功学里有用的地方比如我经济强势了肯定不会选择势力的人，但我却可以轻易打动这些现实的女生。”<br />
+你到底有什么故事，以及求放过“现实”这个词。<br />
+到这里的时候，我意识到发展新的恋情我也极有可能会给自己再找个爹，然后渴求他的认可。某种程度上目前认识的男性都有共同的特点。认识的人太少了，毕竟朋友圈发红包领的人连20个都不到。<br />
+莫名其妙和弟弟交流起婚恋观，有时候会怀疑自己只是向往别的地方表演出少女心满满的样子，却不能接受每天和同一个人相处。异地恋是能想到的最好方式，却还是没有勇气走向下一步。果然是自己太奇葩太渣，想着谁没遇见几个渣呢然后原谅了自己。<br />
+大家可能有什么误解，幻想着我一本一眼循规蹈矩然后遭遇人生重大挫折，需要开解我跌倒了别怕赶紧站起来。<br />
+其实一直躺着的，只是存在感太低于是没人发现而已。<br />
+5.连自己都嫌多余怎么能再找个人来，希望有不麻烦人不被打扰可以静静等死的生活。<br />
+4.塑造成很忙的样子，这将会带来巨大的好处。<br />
+6.早点睡都办不到哪里来的自我约束。<br />
+7.写废话实在是太好了，越长越狗屁不通越不会有人发现情绪坟场。</p>
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>今年已经过去27天，距2018年还有338天</title>
@@ -245,99 +269,6 @@ xp反复重启无法进入系统，安全模式能打开，pe引导启动程序�
   没有冲突或者解决掉冲突后，再用git push origin branch-name推送。</p>
   </li>
 </ul>
-
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>Github Pages +Jekyll建站</title>
-		<link href="http://127.0.0.1/posts/build-myown-blog-with-jekyll-and-githubpages.html" />
-		<updated>2016-09-22T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/build-myown-blog-with-jekyll-and-githubpages.html</id>
-		<content type="html"><![CDATA[<blockquote>
-  <p>很早就想找个偏僻地方碎碎念，却一直没有一百块。</p>
-</blockquote>
-
-<p>日益完善的博客类产品和接踵而来的广告，或许是想督促着自己更新，找来网上的教程，一步步照做，从
-<a href="http://playingfingers.com/2016/03/26/build-a-blog/">Github Pages + Jekyll 独立博客一小时快速搭建&amp;上线指南</a>、<a href="http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/">如何搭建一个独立博客——简明 Github Pages与 jekyll 教程</a>学到了不少关于设置DNSpod解析域名，添加CNAME等等这些。<br />
-教程里很详细，我就不再重复了，作为存档，记录一下途中遇到的问题。</p>
-
-<ul>
-  <li>购买域名后手快点了支付宝付款，需要等待一段时间（也许是明天也许是很多天）后才会显示购买成功，用信用卡或银行卡会来得快一些。</li>
-  <li>
-    <p>荒废了很久的github重见天日，创建ssk密钥后连接失败。<br />
-  提示</p>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>  Permission denied (publickey).
-</code></pre>
-    </div>
-
-    <p>解决方案：</p>
-
-    <p>先备份密钥</p>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ls -l
-  $ mkdir key_backup 
-  $ cp id_rsa* key_backup 
-  $ rm id_rsa*
-</code></pre>
-    </div>
-
-    <p>再次提示</p>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh -T git@github.com
-  Permission denied (publickey).
-</code></pre>
-    </div>
-
-    <p>加载私钥</p>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh-add -l
-  $ ssh -T git@github.com
-</code></pre>
-    </div>
-
-    <p>提示“Yo’ve successfully authenticated, but Github does not provide shell access.”</p>
-  </li>
-  <li>
-    <p>参考<a href="http://www.appinn.com/markdown/#p">Markdown 语法说明 (简体中文版)</a>进行书写</p>
-  </li>
-  <li>
-    <p>更换主题<br />
-<a href="https://github.com/mytharcher/SimpleGray">极简灰</a>中讲到“除非你想改进这个主题，否则请不要fork此项目作为你博客的起点，因为fork后你的所有提交和推送都会在整个network图中显示出来。所以更推荐你使用clone的方式创建自己的站点，以免给所有使用此主题的人造成干扰。”之前的fork可能给<a href="http://blog.lenage.com">lenage</a>造成了困扰,极简灰打开速度很快，故更改主题一探究竟。</p>
-  </li>
-  <li>
-    <p>Git问题总结<br />
-  1.在已经配好ssh key之后，新建helloworld仓库，试图讲之前建立的README.md文件上传失败，
-报错Permission denied (publickey).<br />
-解决方案：将新建的空仓库clone到本地后，再次上传。</p>
-
-    <p>2.在上传README.md到helloworld中时，最后一步出现<br />
-error:src refspec master does not match any<br />
-分析：由于空目录不能提交上去，前一步已经将文件添加到origin中 <br />
-解决方案：按照空目录处理，将git基本命令合集等文件一同上传</p>
-
-    <p>3.切换分支</p>
-
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ git push origin master
-  error:src refspec master does not macth any.
-  error:无法推送一些引用到'https：//geithub.com/hehedanli/hehedanli.github.io'
-  $ git branch
-  * gh-pages
-  $ git checkout -b master
-  切换到一个新分支'master'
-  $ git branch
-    gh-pages
-  * master
-  $ git push origin master
-</code></pre>
-    </div>
-
-    <p>github pages需要在master分支上。</p>
-  </li>
-</ul>
-
-<p>听说离2017年到来只剩100天了，希望能偶尔更新。</p>
 
 ]]></content>
 	</entry>
