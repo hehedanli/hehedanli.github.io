@@ -3,12 +3,31 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-01-29T02:09:50+08:00</updated>
+	<updated>2017-01-30T00:18:33+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>今年已经过去28天，距2018年还有337天</title>
+		<link href="http://127.0.0.1/posts/336-till-2018.html" />
+		<updated>2017-01-29T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/336-till-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>试图修复崩掉的博客。</p>
+</blockquote>
+
+<p>1.无尽的团年饭。老司机花大椒认识了一位来自东方霍格沃兹的同学，忍住了对暗号的冲动，假装自己是个正经人。然而挥手道别时，新勾搭的美貌妹子告诉我她已经识破了我现充的伪装。啊这两个女孩子好可爱！<br />
+来来往往开车接送的一天都变得愉快了起来！虽然团年饭还没有吃饱就开始送人回家。<br />
+2.讲出了兼职司机小保姆的经历后，女朋友们终于理解了我被过年支配的恐惧，重新理解了亲戚朋友同事同学老乡这些词汇。<br />
+3.今天爸爸又一次脱口而出什么我以后嫁人了就是外人了，我只能告诉他过年你应该看出来了，在座的老年人基本上是灵活的太婆，明白了吗生女儿比生儿子可以给你多交30年墓地物管费。<br />
+4.还没想好明天的菜单。<br />
+5.今天的天气格外的好，晒过太阳后感觉舒服了一些。没有路灯的小山丘里，有整个冬天都没见过的满天繁星。<br />
+传说中的季节性情感障碍可能真的存在。</p>
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>今年已经过去28天，距2018年还有337天</title>
@@ -31,8 +50,8 @@
 4.塑造成很忙的样子，这将会带来巨大的好处。<br />
 6.早点睡都办不到哪里来的自我约束。<br />
 7.写废话实在是太好了，越长越狗屁不通越不会有人发现情绪坟场。<br />
-—
 太傻了，直接复制过来，md文件名字忘记改了导致这么多天日记都显示是最新一篇。</p>
+
 ]]></content>
 	</entry>
 	
@@ -191,87 +210,6 @@ xp反复重启无法进入系统，安全模式能打开，pe引导启动程序�
 
 <p>是的，幻想里的“明天”永远不会到来。<br />
 从今天起开启每日更新模式。</p>
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>ubuntu安装更新报错 &amp; git pull</title>
-		<link href="http://127.0.0.1/posts/ubuntu-update-and-git-pull.html" />
-		<updated>2016-09-24T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/ubuntu-update-and-git-pull.html</id>
-		<content type="html"><![CDATA[<h3 id="ubuntu">ubuntu安装更新报错资源被锁</h3>
-
-<blockquote>
-  <p>从设置中安装更新，进度条始终卡在一半，下载内容的“详细”页面莫名其妙变成了空白，非常不信任自家网络的我，试图从终端看看`````由于不可抗力dl.google.com被我们纯洁的友谊净化了。<br />
-恍惚间又冒出了别的错误。</p>
-</blockquote>
-
-<p>执行</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	$ sudo apt update &amp;&amp; sudo apt upgrade
-</code></pre>
-</div>
-
-<p>后提示</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	正在读取软件包列表... 完成
-	E: 无法获得锁 /var/lib/apt/lists/lock - open (11: 资源暂时不可用)
-	E: 无法对目录 /var/lib/apt/lists/ 加锁
-</code></pre>
-</div>
-
-<p>参考<a href="http://www.linuxidc.com/Linux/2014-06/103437.htm">Ubuntu使用教程：E: 无法获得锁 /var/lib/apt/lists/lock - open (11 资源临时不可用)</a>解决。</p>
-
-<p>方法一：<br />
-输入命令</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo dpkg --configure -a
-</code></pre>
-</div>
-
-<p>方法二：<br />
-出现这个问题的原因可能是有另外一个程序正在运行，导致资源被锁不可用。而导致资源被锁的原因，可能是上次安装时没正常完成。在大部分情况下，问题的原因在于其它的程序如系统的自动更新、新立得等正在使用apt-get进程，所以解决方法也就是将这一进程关闭。<br />
-输入命令（亲测可用）</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo rm /var/lib/apt/lists/lock
-</code></pre>
-</div>
-
-<p>或</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo rm /var/cache/apt/archives/lock
-	sudo rm /var/lib/dpkg/lock
-</code></pre>
-</div>
-
-<p>再安装想装的包，即可解决。</p>
-
-<p>方法三：<br />
-首先在终端输入“ps -aux”查看是否有使用apt-get的程序,,找到使用apt-get的程序,查看其PID号,然后输入sudo kill PID 杀死该进程。</p>
-
-<h3 id="git-push-origin-master">推送文章git push origin master报错</h3>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>	error: 无法推送一些引用到 'https://github.com/hehedanli/hehedanli.github.io.git'
-	提示：更新被拒绝，因为远程仓库包含您本地尚不存在的提交。这通常是因为另外
-	提示：一个仓库已向该引用进行了推送。再次推送前，您可能需要先整合远程变更
-	提示：（如 'git pull ...'）。
-	提示：详见 'git push --help' 中的 'Note about fast-forwards' 小节。
-</code></pre>
-</div>
-
-<p>根据提示，执行git pull命令，来查看冲突内容，有的时候，它会自动合并，有的时候需要手动来解决冲突（按照提示来就可以了）</p>
-
-<ul>
-  <li>
-    <p>总结</p>
-
-    <p>首先git push origin branch-name推送自己的修改；<br />
-  如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；<br />
-  如果合并有冲突，则解决冲突，并在本地提交；<br />
-  没有冲突或者解决掉冲突后，再用git push origin branch-name推送。</p>
-  </li>
-</ul>
-
 ]]></content>
 	</entry>
 	
