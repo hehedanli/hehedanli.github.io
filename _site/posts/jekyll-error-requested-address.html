@@ -33,12 +33,11 @@ jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2)</p>
 <p>修改主题为自己的站点时，参考极简灰作者的说明，无法运行jekyll预览的情况下，push了文件，留到今天来修改。<br />
 参考<a href="http://jekyllcn.com/docs/configuration/">jekyll配置说明</a>  服务器选项</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>detach:  false
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>detach:  false
 port:    4000 
 host:    127.0.0.1
 baseurl: "" # does not include hostname
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>修改时将_config.yml文件中的变量host修改为站点域名，产生冲突（或许是我哪里没设置对？）。</p>
 

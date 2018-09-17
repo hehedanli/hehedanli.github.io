@@ -39,34 +39,30 @@
     <p>荒废了很久的github重见天日，创建ssk密钥后连接失败。<br />
   提示</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  Permission denied (publickey).
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Permission denied (publickey).
+</code></pre></div>    </div>
 
     <p>解决方案：</p>
 
     <p>先备份密钥</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ls -l
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ ls -l
   $ mkdir key_backup 
   $ cp id_rsa* key_backup 
   $ rm id_rsa*
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>再次提示</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh -T git@github.com
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ ssh -T git@github.com
   Permission denied (publickey).
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>加载私钥</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh-add -l
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ ssh-add -l
   $ ssh -T git@github.com
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>提示“Yo’ve successfully authenticated, but Github does not provide shell access.”</p>
   </li>
@@ -90,7 +86,7 @@ error:src refspec master does not match any<br />
 
     <p>3.切换分支</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ git push origin master
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ git push origin master
   error:src refspec master does not macth any.
   error:无法推送一些引用到'https：//geithub.com/hehedanli/hehedanli.github.io'
   $ git branch
@@ -101,8 +97,7 @@ error:src refspec master does not match any<br />
     gh-pages
   * master
   $ git push origin master
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>github pages需要在master分支上。</p>
   </li>

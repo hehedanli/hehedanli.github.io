@@ -3,12 +3,25 @@
 	<title>StillNoon</title>
 	<link href="http://127.0.0.1/atom.xml" rel="self" />
 	<link href="http://127.0.0.1/" />
-	<updated>2017-05-10T21:46:35+08:00</updated>
+	<updated>2018-09-18T01:37:11+08:00</updated>
 	<id>http://127.0.0.1/</id>
 	<author>
 		<name>hehedanli</name>
 		<email>hehedanli@foxmail.com</email>
 	</author>
+	
+	<entry>
+		<title>真话痨从不回头看手账</title>
+		<link href="http://127.0.0.1/posts/this-is-2018.html" />
+		<updated>2018-09-17T00:00:00+08:00</updated>
+		<id>http://127.0.0.1/posts/this-is-2018.html</id>
+		<content type="html"><![CDATA[<blockquote>
+  <p>喜欢的网站倒闭了4个多月，半年计划本快用完了，告别单机，把博客找回来和朋友一起玩</p>
+</blockquote>
+
+<p>会员从40涨到了55.78，我不仅没买会员，还没准备小船。</p>
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>搜狗输入法无法输入中文</title>
@@ -19,12 +32,11 @@
 
 <p>解决方案：删除搜狗配置文件 （~/.config目录下的文件夹SogouPY、SogouPY.users、sogou-qimpanel），重启fcitx</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>cd ~/.config
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/.config
 rm -rf sogou-qimpanel
 rm -rf SogouPY
 rm -rf SogouPY.users
-</code></pre>
-</div>
+</code></pre></div></div>
 
 ]]></content>
 	</entry>
@@ -42,29 +54,25 @@ rm -rf SogouPY.users
 
 <p>1.安装wine：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo apt-get install wine
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	sudo apt-get install wine
+</code></pre></div></div>
 
 <p>2.下载caj6.0绿色版CAJViewer6.0_green.rar：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	http://pan.baidu.com/s/1mhwEvAK
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	http://pan.baidu.com/s/1mhwEvAK
+</code></pre></div></div>
 
 <p>3.解压到目录cajviewer6.0：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	mkdir cajviewer6.0  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	mkdir cajviewer6.0  
 	unrar x CAJViewer6.0_green.rar cajviewer6.0
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>4.运行：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo chmod u+x CAJViewer.exe //修改权限  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	sudo chmod u+x CAJViewer.exe //修改权限  
 	wine CAJViewer.exe
-</code></pre>
-</div>
+</code></pre></div></div>
 
 ]]></content>
 	</entry>
@@ -92,7 +100,7 @@ rm -rf SogouPY.users
   <p>镜子里的我眼神空洞肌肉僵硬。</p>
 </blockquote>
 
-<p>1.以为会怀念永远珍惜的东西，时间冲刷下很快就被忘掉了。年前大扫除，轻易丢掉了高三毕业后辛苦载回家的课本、试和笔记。而最喜爱的语文课本，距离被扔掉只剩两步之遥。<br />
+<p>1.以为会怀念永远珍惜的东西，时间冲刷下很快就被忘掉了。年前大扫除，轻易丢掉了高三毕业后辛苦载回家的课本、试卷和笔记。而最喜爱的语文课本，距离被扔掉只剩两步之遥。<br />
 床底成为了藏污纳垢的最好去处，当年没参与装修的我，现在却在后悔床太低。</p>
 
 <p>2.窗帘拆下来还没来得及挂上，今天将是没有窗帘的夜晚，去迎接明早早起兼职司机回家上坟。 <br />
@@ -110,7 +118,7 @@ xp反复重启无法进入系统，安全模式能打开，pe引导启动程序�
 		<link href="http://127.0.0.1/posts/ubuntu-update-and-git-pull.html" />
 		<updated>2016-09-24T00:00:00+08:00</updated>
 		<id>http://127.0.0.1/posts/ubuntu-update-and-git-pull.html</id>
-		<content type="html"><![CDATA[<h3 id="ubuntu">ubuntu安装更新报错资源被锁</h3>
+		<content type="html"><![CDATA[<h3 id="ubuntu安装更新报错资源被锁">ubuntu安装更新报错资源被锁</h3>
 
 <blockquote>
   <p>从设置中安装更新，进度条始终卡在一半，下载内容的“详细”页面莫名其妙变成了空白，非常不信任自家网络的我，试图从终端看看`````由于不可抗力dl.google.com被我们纯洁的友谊净化了。<br />
@@ -119,56 +127,50 @@ xp反复重启无法进入系统，安全模式能打开，pe引导启动程序�
 
 <p>执行</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	$ sudo apt update &amp;&amp; sudo apt upgrade
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ sudo apt update &amp;&amp; sudo apt upgrade
+</code></pre></div></div>
 
 <p>后提示</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	正在读取软件包列表... 完成
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	正在读取软件包列表... 完成
 	E: 无法获得锁 /var/lib/apt/lists/lock - open (11: 资源暂时不可用)
 	E: 无法对目录 /var/lib/apt/lists/ 加锁
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>参考<a href="http://www.linuxidc.com/Linux/2014-06/103437.htm">Ubuntu使用教程：E: 无法获得锁 /var/lib/apt/lists/lock - open (11 资源临时不可用)</a>解决。</p>
 
 <p>方法一：<br />
 输入命令</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo dpkg --configure -a
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	sudo dpkg --configure -a
+</code></pre></div></div>
 
 <p>方法二：<br />
 出现这个问题的原因可能是有另外一个程序正在运行，导致资源被锁不可用。而导致资源被锁的原因，可能是上次安装时没正常完成。在大部分情况下，问题的原因在于其它的程序如系统的自动更新、新立得等正在使用apt-get进程，所以解决方法也就是将这一进程关闭。<br />
 输入命令（亲测可用）</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo rm /var/lib/apt/lists/lock
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	sudo rm /var/lib/apt/lists/lock
+</code></pre></div></div>
 
 <p>或</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	sudo rm /var/cache/apt/archives/lock
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	sudo rm /var/cache/apt/archives/lock
 	sudo rm /var/lib/dpkg/lock
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>再安装想装的包，即可解决。</p>
 
 <p>方法三：<br />
 首先在终端输入“ps -aux”查看是否有使用apt-get的程序,,找到使用apt-get的程序,查看其PID号,然后输入sudo kill PID 杀死该进程。</p>
 
-<h3 id="git-push-origin-master">推送文章git push origin master报错</h3>
+<h3 id="推送文章git-push-origin-master报错">推送文章git push origin master报错</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	error: 无法推送一些引用到 'https://github.com/hehedanli/hehedanli.github.io.git'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	error: 无法推送一些引用到 'https://github.com/hehedanli/hehedanli.github.io.git'
 	提示：更新被拒绝，因为远程仓库包含您本地尚不存在的提交。这通常是因为另外
 	提示：一个仓库已向该引用进行了推送。再次推送前，您可能需要先整合远程变更
 	提示：（如 'git pull ...'）。
 	提示：详见 'git push --help' 中的 'Note about fast-forwards' 小节。
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>根据提示，执行git pull命令，来查看冲突内容，有的时候，它会自动合并，有的时候需要手动来解决冲突（按照提示来就可以了）</p>
 
@@ -205,34 +207,30 @@ xp反复重启无法进入系统，安全模式能打开，pe引导启动程序�
     <p>荒废了很久的github重见天日，创建ssk密钥后连接失败。<br />
   提示</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  Permission denied (publickey).
-</code></pre>
-    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Permission denied (publickey).
+</code></pre></div>    </div>
 
     <p>解决方案：</p>
 
     <p>先备份密钥</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ls -l
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ ls -l
   $ mkdir key_backup 
   $ cp id_rsa* key_backup 
   $ rm id_rsa*
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>再次提示</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh -T git@github.com
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ ssh -T git@github.com
   Permission denied (publickey).
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>加载私钥</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ ssh-add -l
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ ssh-add -l
   $ ssh -T git@github.com
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>提示“Yo’ve successfully authenticated, but Github does not provide shell access.”</p>
   </li>
@@ -256,7 +254,7 @@ error:src refspec master does not match any<br />
 
     <p>3.切换分支</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>  $ git push origin master
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $ git push origin master
   error:src refspec master does not macth any.
   error:无法推送一些引用到'https：//geithub.com/hehedanli/hehedanli.github.io'
   $ git branch
@@ -267,8 +265,7 @@ error:src refspec master does not match any<br />
     gh-pages
   * master
   $ git push origin master
-</code></pre>
-    </div>
+</code></pre></div>    </div>
 
     <p>github pages需要在master分支上。</p>
   </li>
@@ -292,12 +289,11 @@ jekyll 3.0.1 | Error:  Cannot assign requested address - bind(2)</p>
 <p>修改主题为自己的站点时，参考极简灰作者的说明，无法运行jekyll预览的情况下，push了文件，留到今天来修改。<br />
 参考<a href="http://jekyllcn.com/docs/configuration/">jekyll配置说明</a>  服务器选项</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>detach:  false
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>detach:  false
 port:    4000 
 host:    127.0.0.1
 baseurl: "" # does not include hostname
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>修改时将_config.yml文件中的变量host修改为站点域名，产生冲突（或许是我哪里没设置对？）。</p>
 
@@ -386,27 +382,29 @@ eg: SIR</li>
   <li>Help choose among policies institutions</li>
 </ul>
 
-<h2 id="segregation-and-peer-effects">Segregation and Peer Effects</h2>
+<p>##Segregation and Peer Effects</p>
 
 <p>reason 1 : sorting effect<br />
 reason 2 : peer effect</p>
 
-<p>classifaction:<br />
-* Equation based model<br />
-* Agent based model<br />
-  individuals<br />
-  behaviors<br />
-  outcomes</p>
+<p>classifaction:</p>
+<ul>
+  <li>Equation based model</li>
+  <li>Agent based model<br />
+individuals<br />
+behaviors<br />
+outcomes</li>
+</ul>
 
-<h3 id="schelling">1.Schelling</h3>
+<h3 id="1schelling">1.Schelling</h3>
 <p>measuring segregation</p>
 
-<h3 id="granoveretter">2.Granoveretter</h3>
+<h3 id="2granoveretter">2.Granoveretter</h3>
 <p>N individuals<br />
   each has a thresholds(阈值)<br />
   more likely if lowrer Thresholds,more variation in Thresholds.</p>
 
-<h3 id="standing-oration">3.Standing Oration</h3>
+<h3 id="3standing-oration">3.Standing Oration</h3>
 <p>Threshold to Stand:T<br />
   Quality:Q  (0,100)<br />
   Signal : S = Q + E
@@ -436,7 +434,7 @@ E:error;diversity<br />
 audience and performace.</li>
 </ul>
 
-<h3 id="identification">4.Identification</h3>
+<h3 id="4identification">4.Identification</h3>
 <p>sorting vs peer effect</p>
 
 ]]></content>
@@ -457,56 +455,6 @@ audience and performace.</li>
 
 <p>最近看了几本书，上了几堂课，可能一无所获。</p>
 
-]]></content>
-	</entry>
-	
-	<entry>
-		<title>少吃零食多看报，早睡多动勤用脑</title>
-		<link href="http://127.0.0.1/posts/Learn-How-to-Learn.html" />
-		<updated>2016-08-16T00:00:00+08:00</updated>
-		<id>http://127.0.0.1/posts/Learn-How-to-Learn.html</id>
-		<content type="html"><![CDATA[<p>完成了Coursera上的Learn How to Learn:Powerful mental tools to help you master tough subjects，课程的很多内容多多少少在一些地方看到过，不过作为补充的一些采访视频和博客很有意思。<br />
-这里是一些文章链接备份。</p>
-
-<ul>
-  <li><a href="https://www.scotthyoung.com/blog/2015/01/19/speed-reading-redo/">I Was Wrong About Speed Reading: Here are the Facts</a>
-&gt; None of these are magic fixes for your reading woes, but a mild treatment that works is better than a fantastic one which doesn’t.<br />
- 作者特意对自己八年前关于阅读速度两倍速的文章进行了说明和纠正，超可爱！ 
-Reading Tip
-    <ol>
-      <li>Skim Before You Read<br />
-Knowing how an article or book is structured</li>
-      <li>Improve Your Fluency to Improve Your Speed</li>
-      <li>Know What You Want, Before You Read It</li>
-      <li>Deeper Processing Tasks to Improve Retention<br />
-Highlighting causes you to think about bolded words, not what they means.<br />
- 啦啦啦，不用鬼画符这点，甚合朕意。</li>
-    </ol>
-  </li>
-  <li>
-    <p><a href="http://medicalxpress.com/news/2014-06-poor-health-lifestyle-factors-linked.html">Poor health, lifestyle factors linked to memory complaints, even among younger adults</a><br />
-我这么沮丧，可能是低落起来生活习惯更糟糕，缺乏运动睡眠不足的恶性循环吧。</p>
-  </li>
-  <li><a href="http://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work/">This is the kind of music you should listen to at work</a><br />
-很好，现在我的音乐收藏可以分为了 作业向、死线专用、小说时间、抖腿 四个栏目。</li>
-</ul>
-
-<blockquote>
-  <p>If you’re depressed, don’t get enough exercise or have high blood pressure, you may find yourself complaining more about memory problems</p>
-</blockquote>
-
-<ul>
-  <li>
-    <p><a href="http://time.com/79937/how-studying-or-working-abroad-makes-you-smarter/">How Studying or Working Abroad Makes You Smarter</a><br />
-multicultural engagement的神奇之处，这算强行给自己找动力吗？</p>
-  </li>
-  <li>
-    <p><a href="http://psp.sagepub.com/content/36/6/731.full.pdf+html">When in Rome . . . Learn Why the Romans Do What They Do: How Multicultural Learning Experiences Facilitate Creativity</a>
-&gt; Results showed that creativity was enhanced only when participants recalled a functional multicultural learning experience and only when participants had previously lived abroad. 
-&gt; Overall, multicultural learning appears to be an
-important mechanism by which foreign living experiences lead to creative enhancement.</p>
-  </li>
-</ul>
 ]]></content>
 	</entry>
 	
